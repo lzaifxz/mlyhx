@@ -1,9 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 	<head>
-		<meta charset="UTF-8">
-		<title></title>
+		<meta charset="utf-8">
+		<title>Swiper demo</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="lib/font/iconfont.css"/>
+		<link rel="stylesheet" href="lib/swiper/swiper-4.3.5.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	</head>
+
 	<body>
+		<header class="header">
+			<div class="logo">
+				<a href="#">
+					<img src="img/logo.png" alt="" />
+				</a>
+			</div>
+			<nav>
+				<a href="#" class="active">首页</a>
+				<a href="#">纹绣</a>
+				<a href="#">化妆</a>
+				<a href="#">皮肤管理</a>
+				<a href="#">日式美睫</a>
+				<a href="#">新闻活动</a>
+				<a href="#">美妆视频</a>
+				<a href="#">关于我们</a>
+			</nav>
+		</header>
+			
+		</div>
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">Slide 1</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="classes">
+			<h3>2018年开班信息</h3>
+			<table border="1" cellspacing="0" cellpadding="0">
+				<tr><th>Header</th></tr>
+				<tr><th>Header</th></tr>
+				<tr><th>Header</th></tr>
+				<tr><th>Header</th></tr>
+				<tr><th>Header</th></tr>
+				<tr><td>Data</td></tr>
+			</table>
+		</div>
+
+		<!-- Swiper JS -->
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/swiper/swiper-4.3.5.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: {
+					el: '.swiper-pagination',
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				autoplay:{
+					delay: 2000,//1秒切换一次
+				}
+			});
+		</script>
 	</body>
+
 </html>
