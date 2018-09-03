@@ -43,15 +43,15 @@
 
 
 .footer{
-	background: #EEEEEE;
-	color: #666666;
+	background: #999999;
+	color: #ffffff;
 	padding: 15px 50px;
 }
 .footerTop{
 	height: 60px;
 	line-height: 60px;
 	font-size: 22px;
-	border-bottom: 1px dashed #000;
+	border-bottom: 1px dashed #ccc;
 }
 .footerCon{
 	padding: 30px;
