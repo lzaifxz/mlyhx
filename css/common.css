@@ -40,3 +40,45 @@
    	border-bottom: 2px solid #2ba63a;
    	color: #2ba63a;
    }
+
+
+.footer{
+	background: #EEEEEE;
+	color: #666666;
+	padding: 15px 50px;
+}
+.footerTop{
+	height: 60px;
+	line-height: 60px;
+	font-size: 22px;
+	border-bottom: 1px dashed #000;
+}
+.footerCon{
+	padding: 30px;
+	position: relative;
+}
+.footerCon div{
+	margin-bottom: 20px;
+}
+.footerCon span{
+	padding-left: 50px;
+	font-size: 22px;
+}
+.myicon{
+	font-size: 30px !important;
+}
+.ewm{
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 50px;
+	right: 60px;
+}
+.ewm img{
+	width: 100%;
+}
+.footerBottom{
+	text-align: center;
+	font-size: 14px;
+}

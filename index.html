@@ -3,10 +3,13 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Swiper demo</title>
+		<meta name="description" content="御华绣国际美业技能培训机构是专业的深圳化妆学校，深圳美容学校，深圳福田总校区，开设化妆培训，中医美容培训，纹绣培训，皮肤管理系统培训，芳香DIY护肤品制作培训，美睫培训等课程，招生范围覆盖全国各地" />
+		<meta name="keywords" content="御华绣国际美业技能培训机构,化妆培训,美甲培训,纹绣培训,美容培训,形象设计培训,化妆培训学校,纹绣培训学校,半永久美妆培训学校，美睫培训学校，美容培训学校,美甲培训学校,美容培训学校,深圳化妆学校,深圳美容学校,最好的化妆美容培训学校，最好的纹绣培训学校"/>
+		<title>御华绣国际</title>
+		<link rel="icon" type="image/ico" href="img/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
-		<link rel="stylesheet" type="text/css" href="lib/font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="lib/font/iconfont.css" />
 		<link rel="stylesheet" href="lib/swiper/swiper-4.3.5.min.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	</head>
@@ -29,14 +32,14 @@
 				<a href="#">关于我们</a>
 			</nav>
 		</header>
-			
+
 		</div>
 		<!-- Swiper -->
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">Slide 1</div>
-				<div class="swiper-slide">Slide 2</div>
-				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide"><img src="img/stu/1.jpg"/></div>
+				<div class="swiper-slide"><img src="img/stu/1.jpg"/></div>
+				<div class="swiper-slide"><img src="img/stu/1.jpg"/></div>
 			</div>
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
@@ -114,15 +117,74 @@
 		<div class="stuInfo">
 			<h3>学员风采</h3>
 			<div class="stuCon">
-				<div><img src="" alt="" /></div>
-				<div><img src="" alt="" /></div>
-				<div><img src="" alt="" /></div>
-				<div><img src="" alt="" /></div>
-				<div><img src="" alt="" /></div>
-				<div><img src="" alt="" /></div>
+				<div><img src="img/stu/1.jpg" alt="" /></div>
+				<div><img src="img/stu/1.jpg" alt="" /></div>
+				<div><img src="img/stu/1.jpg" alt="" /></div>
+				<div><img src="img/stu/1.jpg" alt="" /></div>
+				<div><img src="img/stu/1.jpg" alt="" /></div>
+				<div><img src="img/stu/1.jpg" alt="" /></div>
 			</div>
 		</div>
-
+		<div class="industry">
+			<h3>业内资讯</h3>
+			<div class="industryCon">
+				<div class="swiper-container2">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/stu/1.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/stu/1.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/stu/1.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/stu/1.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/stu/1.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/stu/1.jpg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="joinUs">
+			<h3>加入我们</h3>
+			<div class="joinUsCon">
+				<img src="img/stu/1.jpg"/>
+				<img src="img/stu/1.jpg"/>
+				<img src="img/stu/1.jpg"/>
+				<img src="img/stu/1.jpg"/>
+				<img src="img/stu/1.jpg"/>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footerTop">联系方式</div>
+			<div class="footerCon">
+				<div>
+					<i class="iconfont icon-iconlinephone myicon"></i>
+				<span>15926488017</span>
+				</div>
+				<div>
+					<i class="iconfont icon-iconlinemail myicon"></i>
+				<span>84870021@126.com</span>
+				</div>
+				<div>
+					<i class="iconfont icon-iconlinemap myicon"></i>
+				<span>深圳市福田区</span>
+				</div>
+				<div class="ewm">
+					<img src="img/stu/1.jpg"/>
+				</div>
+			</div>
+			<div class="footerBottom">
+				Copyright © 2014-2018 御华绣, All Rights Reserved。
+			</div>
+		</footer>
 		<!-- Swiper JS -->
 		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="lib/swiper/swiper-4.3.5.min.js"></script>
@@ -137,9 +199,19 @@
 					nextEl: '.swiper-button-next',
 					prevEl: '.swiper-button-prev',
 				},
-				autoplay:{
-					delay: 2000,//1秒切换一次
-				}
+				autoplay: {
+					delay: 3000, //1秒切换一次
+				},
+				loop : true
+			});
+			var swiper = new Swiper('.swiper-container2', {
+				slidesPerView: 3,
+				spaceBetween: 30,
+				freeMode: true,
+				autoplay: {
+					delay: 2000, //1秒切换一次
+				},
+				loop : true,
 			});
 		</script>
 	</body>
