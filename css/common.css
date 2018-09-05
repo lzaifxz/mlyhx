@@ -9,8 +9,8 @@
   .header{
    	width: 100%;
    	height: 80px;
-   	border-bottom: 1px solid #ccc;
-   	background: #FFFFFF;
+   	/*border-bottom: 1px solid #ccc;*/
+   	background: #e8e9d7;
    }
    .header .logo{
    	float: left;
@@ -36,16 +36,18 @@
    	text-align: center;
    	line-height: 78px;
    	font-size: 18px;
+   	color: #20c157;
    }
    .header nav a.active,.header nav a:hover{
-   	border-bottom: 2px solid #2ba63a;
-   	color: #2ba63a;
+   	/*border-bottom: 2px solid #e8e9d7;*/
+   	color: #e8e9d7;
+    background: #20c157;
    }
 
 
 .footer{
-	background: #999999;
-	color: #ffffff;
+	background: #e8e9d7;
+	color: #20c157;
 	padding: 15px 50px;
 }
 .footerTop{

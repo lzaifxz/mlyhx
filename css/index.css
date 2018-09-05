@@ -44,12 +44,12 @@
  }
  
  .swiper-pagination-bullet-active {
- 	background: #2BA63A;
+ 	background: #20c157;
  }
  
  .classes, .stuInfo ,.industry,.joinUs{
  	margin-top: 40px;
- 	background: #FFFFFF;
+ 	background: #e8e9d7;
  	padding: 0px 30px 30px;
  	position: relative;
  }
@@ -57,8 +57,8 @@
  .classes h3 {
  	text-align: center;
  	font-size: 28px;
- 	color: #2BA63A;
- 	border-bottom: 1px solid #2BA63A;
+ 	color: #20c157;
+ 	border-bottom: 1px solid #20c157;
  	line-height: 60px;
  	height: 60px;
  	margin-bottom: 20px;
@@ -80,7 +80,7 @@
  .classes table th {
  	padding: 15px;
  	text-align: center;
- 	border: 1px solid #2BA63A;
+ 	border: 1px solid #20c157;
  	border-collapse: inherit;
  }
  
@@ -99,22 +99,22 @@
  	line-height: 50px;
  	text-align: center;
  	margin: 30px auto;
- 	border: 1px solid #2BA63A;
- 	color: #2BA63A;
+ 	border: 1px solid #20c157;
+ 	color: #20c157;
  	font-size: 20px;
  	border-radius: 5px;
  	cursor: pointer;
  }
  
  .classes .classesDetail:active {
- 	background: #2BA63A;
+ 	background: #20c157;
  	color: #FFFFFF;
  }
  
  .stuInfo h3 {
  	text-align: center;
  	font-size: 28px;
- 	color: #2BA63A;
+ 	color: #20c157;
  	border-bottom: 1px solid #f2e903;
  	line-height: 60px;
  	height: 60px;
@@ -147,8 +147,8 @@
  .industry h3 {
  	text-align: center;
  	font-size: 28px;
- 	color: #2BA63A;
- 	border-bottom: 1px solid #2BA63A;
+ 	color: #20c157;
+ 	border-bottom: 1px solid #20c157;
  	line-height: 60px;
  	height: 60px;
  	margin-bottom: 20px;
@@ -174,8 +174,8 @@
  .joinUs h3 {
  	text-align: center;
  	font-size: 28px;
- 	color: #2BA63A;
- 	border-bottom: 1px solid #2BA63A;
+ 	color: #20c157;
+ 	border-bottom: 1px solid #20c157;
  	line-height: 60px;
  	height: 60px;
  	margin-bottom: 20px;
