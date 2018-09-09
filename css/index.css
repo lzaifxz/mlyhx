@@ -52,6 +52,7 @@
  	background: #e8e9d7;
  	padding: 0px 30px 30px;
  	position: relative;
+	 border-radius: 10px;
  }
  
  .classes h3 {
@@ -83,15 +84,15 @@
  	border: 1px solid #20c157;
  	border-collapse: inherit;
  }
- 
+ .classes table td:hover,.classes table th:hover{
+	 background: #20c157;
+	 color: #e8e9d7;
+ }
  .classes table th {
- 	background: #7dbc35;
- 	color: #FFFFFF;
+ 	/*background: #7dbc35;*/
+ 	/*color: #FFFFFF;*/
  }
- 
- .classes .over {
- 	color: #CCCCCC;
- }
+
  
  .classes .classesDetail {
  	width: 250px;
@@ -104,8 +105,8 @@
  	font-size: 20px;
  	border-radius: 5px;
  	cursor: pointer;
+	 display: block;
  }
- 
  .classes .classesDetail:active {
  	background: #20c157;
  	color: #FFFFFF;
@@ -115,7 +116,7 @@
  	text-align: center;
  	font-size: 28px;
  	color: #20c157;
- 	border-bottom: 1px solid #f2e903;
+ 	border-bottom: 1px solid #20c157;
  	line-height: 60px;
  	height: 60px;
  	margin-bottom: 20px;
@@ -135,6 +136,10 @@
  	margin-left: 5px;
  	margin-bottom: 5px;
  	overflow: hidden;
+	 border-radius: 5px;
+ }
+ .stuCon div:hover{
+	 border: 1px solid #20c157;
  }
  
  .stuCon div img {

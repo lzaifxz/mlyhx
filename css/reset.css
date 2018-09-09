@@ -1,6 +1,7 @@
   * {
   	margin: 0;
   	padding: 0;
+  	box-sizing: border-box;
   }
   
   
@@ -19,4 +20,10 @@
   }
 img{
 	cursor: pointer;
+}
+table{
+	border-collapse: collapse;
+}
+ul,li{
+	list-style: none;
 }
