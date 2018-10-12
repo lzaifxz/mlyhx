@@ -55,62 +55,62 @@
 	 border-radius: 10px;
  }
  
- .classes h3 {
- 	text-align: center;
- 	font-size: 28px;
- 	color: #20c157;
- 	border-bottom: 1px solid #20c157;
- 	line-height: 60px;
- 	height: 60px;
- 	margin-bottom: 20px;
- }
- .classes .hotIcon{
- 	position: absolute;
- 	top:-33px;
- 	left: 0px;
- }
- .hotIcon img{
- 	width: 100%;
- 	height: 100%;
- }
- .classes table {
- 	width: 100%;
- }
+ /*.classes h3 {*/
+ 	/*text-align: center;*/
+ 	/*font-size: 28px;*/
+ 	/*color: #20c157;*/
+ 	/*border-bottom: 1px solid #20c157;*/
+ 	/*line-height: 60px;*/
+ 	/*height: 60px;*/
+ 	/*margin-bottom: 20px;*/
+ /*}*/
+ /*.classes .hotIcon{*/
+ 	/*position: absolute;*/
+ 	/*top:-33px;*/
+ 	/*left: 0px;*/
+ /*}*/
+ /*.hotIcon img{*/
+ 	/*width: 100%;*/
+ 	/*height: 100%;*/
+ /*}*/
+ /*.classes table {*/
+ 	/*width: 100%;*/
+ /*}*/
  
- .classes table td,
- .classes table th {
- 	padding: 15px;
- 	text-align: center;
- 	border: 1px solid #20c157;
- 	border-collapse: inherit;
- }
- .classes table td:hover,.classes table th:hover{
-	 background: #20c157;
-	 color: #e8e9d7;
- }
- .classes table th {
- 	/*background: #7dbc35;*/
- 	/*color: #FFFFFF;*/
- }
+ /*.classes table td,*/
+ /*.classes table th {*/
+ 	/*padding: 15px;*/
+ 	/*text-align: center;*/
+ 	/*border: 1px solid #20c157;*/
+ 	/*border-collapse: inherit;*/
+ /*}*/
+ /*.classes table td:hover,.classes table th:hover{*/
+	 /*background: #20c157;*/
+	 /*color: #e8e9d7;*/
+ /*}*/
+ /*.classes table th {*/
+ 	/*!*background: #7dbc35;*!*/
+ 	/*!*color: #FFFFFF;*!*/
+ /*}*/
 
  
- .classes .classesDetail {
- 	width: 250px;
- 	height: 50px;
- 	line-height: 50px;
- 	text-align: center;
- 	margin: 30px auto;
- 	border: 1px solid #20c157;
- 	color: #20c157;
- 	font-size: 20px;
- 	border-radius: 5px;
- 	cursor: pointer;
-	 display: block;
- }
- .classes .classesDetail:active {
- 	background: #20c157;
- 	color: #FFFFFF;
- }
+ /*.classes .classesDetail {*/
+ 	/*width: 250px;*/
+ 	/*height: 50px;*/
+ 	/*line-height: 50px;*/
+ 	/*text-align: center;*/
+ 	/*margin: 30px auto;*/
+ 	/*border: 1px solid #20c157;*/
+ 	/*color: #20c157;*/
+ 	/*font-size: 20px;*/
+ 	/*border-radius: 5px;*/
+ 	/*cursor: pointer;*/
+	 /*display: block;*/
+ /*}*/
+ /*.classes .classesDetail:active {*/
+ 	/*background: #20c157;*/
+ 	/*color: #FFFFFF;*/
+ /*}*/
  
  .stuInfo h3 {
  	text-align: center;
@@ -206,4 +206,87 @@
 	 width:100%;
 	 height: 350px;
 	 overflow: hidden;
+ }
+ .classesNav{
+	 height: 190px;
+	 width: 100%;
+	 background: #eaeaea;
+ }
+ .classesNavCon{
+	 width: 33.33%;
+	 float: left;
+	 padding-top: 50px;
+ }
+ .classesNavCon h3{
+	 font-weight: normal;
+	 font-size: 18px;
+	 margin-bottom: 20px;
+ }
+ .classesNavCon p{
+	 font-size: 12px;
+	 margin-bottom: 15px;
+ }
+ .classesNavCon a{
+	 display: inline-block;
+	 color: #f33;
+	 border: 1px solid #f33;
+	 width: 100px;
+	 height: 30px;
+	 text-align: center;
+	 line-height: 28px;
+	 font-size: 12px;
+	 border-radius: 3px;
+ }
+ .classesNavCon a:hover{
+	 color: #e74c3c;
+	 border: 1px solid #e74c3c
+ }
+ .brand{
+	 width:100%;
+	 height: 490px;
+	 overflow: hidden;
+ }
+ .brandCon {
+	 width: 33.33%;
+	 height: 490px;
+	 float: left;
+	 padding-top: 90px;
+ }
+ .brandCon img{
+	 width: 100%;
+	 height: 100%;
+ }
+ .brandCon p{
+	 width: 340px;
+	 margin-bottom: 90px;
+ }
+ .brandCon p.right{
+	text-align: right;
+ }
+ .brandConTop{
+	width: 100%;
+	 height: auto;
+	 overflow: hidden;
+	 margin-bottom: 20px;
+ }
+ .brandConTop div{
+	 float: left;
+	 width:55px;
+	 height: 55px;
+	 background: #000000;
+	 margin-right: 15px;
+	 text-align: center;
+	 line-height: 65px;
+ }
+ .brandConTop h3{
+	 float: left;
+	 width: 260px;
+	 height: 55px;
+ }
+ .brandConTop div.right,.brandConTop h3.right{
+	 float: right;
+	 margin-left: 15px;
+ }
+ .brandConTop h3.right{
+	 text-align: right;
  }

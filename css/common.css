@@ -1,7 +1,7 @@
   .wrap{
   	max-width: 1200px;
   	height: auto;
-  	margin: 30px auto;
+  	margin: 0px auto;
   }
   .hot{
 	color: red;
@@ -33,7 +33,6 @@
    }
    .header nav{
    	float: right;
-   	margin-right: 15px;
    }
    .header nav a{
    	display: inline-block;
