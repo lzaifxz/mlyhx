@@ -47,13 +47,13 @@
  	background: #20c157;
  }
  
- .classes, .stuInfo ,.industry,.joinUs{
- 	margin-top: 40px;
- 	background: #FFFFFF;
- 	padding: 0px 30px 30px;
- 	position: relative;
-	 border-radius: 10px;
- }
+ /*.classes, .stuInfo ,.industry,.joinUs{*/
+ 	/*margin-top: 40px;*/
+ 	/*background: #FFFFFF;*/
+ 	/*padding: 0px 30px 30px;*/
+ 	/*position: relative;*/
+	 /*border-radius: 10px;*/
+ /*}*/
  
  /*.classes h3 {*/
  	/*text-align: center;*/
@@ -148,21 +148,38 @@
  	cursor: pointer;
  }
  
- 
+ .industry{
+	 background: #eaeaea;
+	 padding: 60px;
+	 text-align: center;
+ }
  .industry h3 {
- 	text-align: center;
  	font-size: 28px;
- 	color: #20c157;
- 	border-bottom: 1px solid #20c157;
- 	line-height: 60px;
- 	height: 60px;
- 	margin-bottom: 20px;
+ 	color: #333333;
  	letter-spacing: 5px;
  }
- 
+ .industry p{
+	 margin: 15px 0px 26px;
+ }
+ .industry a{
+	 display: inline-block;
+	 color: #f33;
+	 border: 1px solid #f33;
+	 width: 154px;
+	 height: 40px;
+	 text-align: center;
+	 line-height: 38px;
+	 font-size: 18px;
+	 border-radius: 3px;
+	 margin-top: 26px;
+ }
+ .industry a:hover{
+	 color: #e74c3c;
+	 border: 1px solid #e74c3c
+ }
  .industryCon {
  	width: 100%;
- 	height: 300px;
+ 	height: 365px;
  	overflow: hidden;
  }
  
@@ -245,6 +262,7 @@
 	 width:100%;
 	 height: 490px;
 	 overflow: hidden;
+	 margin-bottom: 60px;
  }
  .brandCon {
 	 width: 33.33%;
@@ -262,6 +280,7 @@
  }
  .brandCon p.right{
 	text-align: right;
+	 float: right;
  }
  .brandConTop{
 	width: 100%;
@@ -286,7 +305,20 @@
  .brandConTop div.right,.brandConTop h3.right{
 	 float: right;
 	 margin-left: 15px;
+	 margin-right: 0px;
  }
  .brandConTop h3.right{
 	 text-align: right;
+ }
+ .hrLine{
+	 border-top: 1px solid #CCCCCC;
+	 text-align: center;
+	 padding: 70px 0px;
+ }
+ .hrLine h3{
+	font-size: 24px;
+	 margin-bottom: 30px;
+ }
+ .hrLine h3 span{
+	 color: #ff3333;
  }
