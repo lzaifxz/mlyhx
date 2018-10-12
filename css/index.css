@@ -113,14 +113,15 @@
  /*}*/
  
  .stuInfo h3 {
- 	text-align: center;
- 	font-size: 28px;
- 	color: #20c157;
- 	border-bottom: 1px solid #20c157;
+ 	font-size: 18px;
+ 	border-bottom: 1px solid #CCCCCC;
  	line-height: 60px;
  	height: 60px;
  	margin-bottom: 20px;
+	 margin-top: 60px;
+	 text-indent: 10px;
  	letter-spacing: 5px;
+	 font-weight: normal;
  }
  
  .stuInfo .stuCon {
@@ -131,21 +132,24 @@
  
  .stuCon div {
  	float: left;
- 	width: 32.6%;
- 	height: 300px;
- 	margin-left: 5px;
- 	margin-bottom: 5px;
+ 	width: 220px;
+ 	height: auto;
+ 	margin-left: 25px;
+ 	margin-bottom: 40px;
  	overflow: hidden;
-	 border-radius: 5px;
  }
- .stuCon div:hover{
-	 border: 1px solid #20c157;
+ .stuCon li div:first-child{
+	 margin-left: 0px;
+ }
+ .stuCon a:hover{
+	 color: #e74c3c;
  }
  
  .stuCon div img {
  	width: 100%;
- 	height: 100%;
+ 	height: 120px;
  	cursor: pointer;
+	 margin-bottom: 20px;
  }
  
  .industry{
