@@ -10,13 +10,19 @@
    	width: 100%;
    	height: 80px;
    	/*border-bottom: 1px solid #ccc;*/
-   	background: #e8e9d7;
+   	background: #f6f6f6;
    }
+  .header >div{
+      max-width: 1200px;
+      height: auto;
+      margin: 0px auto;
+  }
    .header .logo{
    	float: left;
-   	width: 15%;
-   	height: 80px;
+   	width: 20%;
+   	height: 60px;
    	margin-left: 30px;
+	   margin-top: 10px;
    }
    .logo a{
    	text-indent: -9999px;
@@ -26,35 +32,35 @@
    	height: 100%;
    }
    .header nav{
-   	width: 75%;
    	float: right;
    	margin-right: 15px;
    }
    .header nav a{
    	display: inline-block;
-   	width: 14%;
+   	width: 140px;
    	text-align: center;
-   	line-height: 78px;
+   	line-height: 80px;
    	font-size: 18px;
-   	color: #20c157;
+   	color: #333333;
+       float: left;
    }
    .header nav a.active,.header nav a:hover{
    	/*border-bottom: 2px solid #e8e9d7;*/
-   	color: #e8e9d7;
-    background: #20c157;
+   	color: #ffffff;
+    background: #f34;
    }
 
 
 .footer{
-	background: #e8e9d7;
-	color: #20c157;
+	background: #1e1e1e;
+	color: #666666;
 	padding: 15px 50px;
 }
 .footerTop{
 	height: 60px;
 	line-height: 60px;
 	font-size: 22px;
-	border-bottom: 1px dashed #ccc;
+	border-bottom: 1px dashed #666666;
 }
 .footerCon{
 	padding: 30px;
