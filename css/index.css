@@ -114,10 +114,8 @@
  
  .stuInfo h3 {
  	font-size: 18px;
- 	border-bottom: 1px solid #CCCCCC;
  	line-height: 60px;
  	height: 60px;
- 	margin-bottom: 20px;
 	 margin-top: 60px;
 	 text-indent: 10px;
  	letter-spacing: 5px;
@@ -197,36 +195,36 @@
  }
 
  .joinUs{
-	 background: #FFFFFF;
+	 background: #eaeaea;
+	 padding: 60px 0px;
  }
  .joinUs h3 {
  	text-align: center;
  	font-size: 28px;
- 	color: #20c157;
- 	border-bottom: 1px solid #20c157;
+	 border-bottom: 1px solid #CCCCCC;
  	line-height: 60px;
  	height: 60px;
- 	margin-bottom: 20px;
+ 	margin-bottom: 60px;
  	letter-spacing: 5px;
  }
  
  .joinUsCon {
  	overflow: hidden;
- 	padding-left: 5px;
 	 text-align: center;
 	 margin-bottom: 60px;
  }
  
  .joinUsCon img {
- 	margin-right: 5px;
- 	width: 24.4%;
- 	height: 350px;
-	 border-radius: 10px;
+ 	margin-right: 30px;
+ 	width: 300px;
+ 	height: 400px;
+	 border-radius: 3px;
  }
  .joinUsConImg{
-	 width:100%;
+	 width:auto;
 	 height: 350px;
 	 overflow: hidden;
+	 margin: 0px 60px;
  }
  .classesNav{
 	 height: 190px;
