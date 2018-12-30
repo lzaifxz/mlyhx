@@ -219,22 +219,31 @@
  }
  
  .joinUsCon img {
- 	margin-right: 30px;
+ 	margin-right: -8px;
  	width: 300px;
  	height: 400px;
 	 border-radius: 3px;
+     vertical-align: top;
+     z-index: 1;
  }
  .joinUsCon img:hover{
 	 opacity:0.5;
  }
- .joinUsCon a{
-	 display: block;
-	 text-align: center;
-	 font-size: 20px;
-	 margin-top: 15px;
+ .joinUsCon p{
+     display: inline-block;
+     width: 450px;
+     height: 400px;
+     line-height: 1.5;
+     font-size: 20px;
+     vertical-align: top;
+     border: 1px solid #CCCCCC;
+     border-left: 0px;
+     border-radius: 3px;
+     padding-top: 20px;
  }
- .joinUsCon a:hover{
-	 color: #e74c3c;
+ .joinUsCon p strong{
+     font-size: 28px;
+     display: block;
  }
  .joinUsConImg{
 	 width:auto;
