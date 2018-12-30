@@ -251,6 +251,14 @@
 	 overflow: hidden;
 	 margin: 0px 60px;
  }
+ .joinUsConImg p{
+     width: 200px;
+     height: 350px;
+     padding-top: 20px;
+ }
+ .joinUsConImg p strong{
+     font-size: 22px;
+ }
  .classesNav{
 	 height: 190px;
 	 width: 100%;
