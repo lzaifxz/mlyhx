@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/classed/classed",
+			"style": {
+				"navigationBarTitleText": "课程"
+			}
+		},{
+			"path": "pages/team/team",
+			"style": {
+				"navigationBarTitleText": "团队"
+			}
+		},{
+			"path": "pages/join/join",
+			"style": {
+				"navigationBarTitleText": "合作"
+			}
+		},{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "我们"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#f33333",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/classed/classed",
+	        "text": "课程"
+	    }, {
+	        "pagePath": "pages/team/team",
+	        "text": "团队"
+	    }, {
+	        "pagePath": "pages/join/join",
+	        "text": "合作"
+	    }, {
+	        "pagePath": "pages/about/about",
+	        "text": "我们"
+	    }]
+	}
+}
